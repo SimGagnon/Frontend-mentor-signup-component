@@ -13,6 +13,8 @@ body {
   margin: 0;
   padding: 0;
   font-family: "Poppins", sans-serif;
+  background: url("../../images/bg-intro-mobile.png");
+  background-color: #ff7a7a;
 }
 
 h1, h2, h3, h4, h5 {
@@ -25,10 +27,15 @@ button {
 }
 
 .intro {
-  background: url("../../images/bg-intro-mobile.png");
-  background-color: #ff7a7a;
   text-align: center;
   padding: 5.5rem 1.5rem 4.25rem 1.5rem;
+  max-width: 69.375rem;
+  margin: auto;
+}
+
+.intro__signup__container {
+  max-width: 33.75rem;
+  margin: auto;
 }
 
 .intro__text {
@@ -46,6 +53,8 @@ button {
 .intro__text p {
   font-size: 1rem;
   line-height: 1.625rem;
+  max-width: 32.8125rem;
+  margin: auto;
 }
 
 .intro__cta {
@@ -88,6 +97,7 @@ button {
   font-weight: 600;
   border-radius: 5px;
   margin-bottom: 0.5rem;
+  width: 100%;
 }
 
 .intro__form small {
@@ -100,5 +110,33 @@ button {
 .intro__form small span {
   color: #ff7a7a;
   font-weight: bold;
+}
+
+@media screen and (min-width: 68.75em) {
+  .intro {
+    display: flex;
+    align-items: center;
+    height: 100vh;
+    padding: 0;
+  }
+  .intro__text {
+    text-align: left;
+    margin-right: 2.8125rem;
+    margin-bottom: 0;
+  }
+  .intro__text h1 {
+    font-size: 3.125rem;
+    line-height: 3.4375rem;
+    letter-spacing: -0.52px;
+    margin: 0 auto 0.6875rem;
+    max-width: 32.8125rem;
+  }
+  .intro__form {
+    padding: 2.5rem;
+  }
+  .intro__form input {
+    margin-bottom: 1.25rem;
+    padding-left: 2rem;
+  }
 }
 /*# sourceMappingURL=style.css.map */

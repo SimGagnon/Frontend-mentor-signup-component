@@ -1,8 +1,13 @@
 .intro {
-    background: url("../../images/bg-intro-mobile.png");
-    background-color: $Red;
     text-align: center;
     padding: 5.5rem 1.5rem 4.25rem 1.5rem;
+    max-width: 69.375rem;
+    margin: auto;
+
+    &__signup__container {
+        max-width: 33.75rem;
+        margin: auto;
+    }
 
     &__text {
         margin-bottom: 4rem;
@@ -18,6 +23,8 @@
         p {
             font-size: 1rem;
             line-height: 1.625rem;
+            max-width: 32.8125rem;
+            margin: auto;
         }
     }
 
@@ -60,6 +67,7 @@
             font-weight: 600;
             border-radius: 5px;
             margin-bottom: 0.5rem;
+            width: 100%;
         }
 
         small {
@@ -71,6 +79,38 @@
             span {
                 color: $Red;
                 font-weight: bold;
+            }
+        }
+    }
+}
+
+@media screen and (min-width: 68.75em) {
+    .intro {
+        display: flex;
+        align-items: center;
+        height: 100vh;
+        padding: 0;
+
+        &__text {
+            text-align: left;
+            margin-right: 2.8125rem;
+            margin-bottom: 0;
+
+            h1 {
+                font-size: 3.125rem;
+                line-height: 3.4375rem;
+                letter-spacing: -0.52px;
+                margin: 0 auto 0.6875rem;
+                max-width: 32.8125rem;
+            }
+        }
+
+        &__form {
+            padding: 2.5rem;
+
+            input {
+                margin-bottom: 1.25rem;
+                padding-left: 2rem;
             }
         }
     }
