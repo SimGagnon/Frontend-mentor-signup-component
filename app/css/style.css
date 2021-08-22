@@ -57,12 +57,14 @@ button {
   border-radius: 0.625rem;
   color: white;
   margin-bottom: 1.5rem;
+  box-shadow: 0 8px 0 rgba(0, 0, 0, 0.147);
 }
 
 .intro__form {
   background: white;
   padding: 1.5rem;
   border-radius: 10px;
+  box-shadow: 0 8px 0 rgba(0, 0, 0, 0.147);
 }
 
 .intro__form input {
@@ -92,9 +94,11 @@ button {
   color: #b9b6d3;
   font-size: 0.6875rem;
   padding: 0rem 1.625rem;
+  display: block;
 }
 
 .intro__form small span {
   color: #ff7a7a;
+  font-weight: bold;
 }
 /*# sourceMappingURL=style.css.map */

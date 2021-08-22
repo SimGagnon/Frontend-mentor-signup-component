@@ -30,12 +30,14 @@
         border-radius: 0.625rem;
         color: white;
         margin-bottom: 1.5rem;
+        box-shadow: 0 8px 0 hsla(0, 0%, 0%, 0.147);
     }
 
     &__form {
         background: white;
         padding: 1.5rem;
         border-radius: 10px;
+        box-shadow: 0 8px 0 hsla(0, 0%, 0%, 0.147);
 
         input {
             padding: 0.9375rem 0rem 0.9375rem 1.213125rem;
@@ -64,9 +66,11 @@
             color: $GrayishBlue;
             font-size: 0.6875rem;
             padding: 0rem 1.625rem;
+            display: block;
 
             span {
                 color: $Red;
+                font-weight: bold;
             }
         }
     }
