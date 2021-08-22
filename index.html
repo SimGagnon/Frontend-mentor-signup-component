@@ -6,7 +6,7 @@
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,600;0,700;1,400&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="app/css/style.css">
   <title>Frontend Mentor | Intro component with sign up form</title>
 </head>
@@ -22,12 +22,28 @@
         <p class="intro__cta"><b>Try it free 7 days</b> then $20/mo. thereafter</p>
         <div class="intro__form">
           <form>
-            <input type="text" placeholder="First Name">
-            <input type="text" placeholder="Last Name">
-            <input type="email" placeholder="Email Address">
-            <input type="password" placeholder="Password">
+            <div class="intro__form__input">
+              <input type="text" placeholder="First Name">
+              <img src="./images/icon-error.svg" alt="">
+              <small>First Name cannot be empty</small>
+            </div>
+            <div class="intro__form__input">
+              <input type="text" placeholder="Last Name">
+              <img src="./images/icon-error.svg" alt="">
+              <small>Last Name cannoit be empty</small>
+            </div>
+            <div class="intro__form__input">
+              <input type="email" placeholder="Email Address">
+              <img src="./images/icon-error.svg" alt="">
+              <small>Looks like this is not an email</small>
+            </div>
+            <div class="intro__form__input">
+              <input type="password" placeholder="Password">
+              <img src="./images/icon-error.svg" alt="">
+              <small>Password cannot be empty</small>
+            </div>
             <button>Claim your free trial </button>
-            <small>By clicking the button, you are agreeing to our <span>Terms and Services</span></small>
+            <p>By clicking the button, you are agreeing to our <span>Terms and Services</span></p>
           </form>
         </div>
       </div>

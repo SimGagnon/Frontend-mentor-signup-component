@@ -76,7 +76,12 @@ button {
   box-shadow: 0 8px 0 rgba(0, 0, 0, 0.147);
 }
 
-.intro__form input {
+.intro__form__input {
+  position: relative;
+  text-align: right;
+}
+
+.intro__form__input input {
   padding: 0.9375rem 0rem 0.9375rem 1.213125rem;
   font-size: 0.875rem;
   font-weight: 600;
@@ -86,6 +91,21 @@ button {
   border: 1px #DEDEDE solid;
   line-height: 1.625rem;
   letter-spacing: 0.25px;
+}
+
+.intro__form__input img {
+  position: absolute;
+  top: 1rem;
+  right: 1.625rem;
+}
+
+.intro__form__input small {
+  font-style: italic;
+  bottom: 6px;
+  font-size: 0.6875rem;
+  color: #ff7a7a;
+  display: block;
+  margin-bottom: 1.1875rem;
 }
 
 .intro__form button {
@@ -102,14 +122,18 @@ button {
   width: 100%;
 }
 
-.intro__form small {
+.intro__form button:hover {
+  background: #78e2b4;
+}
+
+.intro__form p {
   color: #b9b6d3;
   font-size: 0.6875rem;
   padding: 0rem 1.625rem;
   display: block;
 }
 
-.intro__form small span {
+.intro__form p span {
   color: #ff7a7a;
   font-weight: bold;
 }

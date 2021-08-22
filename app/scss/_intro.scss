@@ -46,16 +46,36 @@
         border-radius: 10px;
         box-shadow: 0 8px 0 hsla(0, 0%, 0%, 0.147);
 
-        input {
-            padding: 0.9375rem 0rem 0.9375rem 1.213125rem;
-            font-size: 0.875rem;
-            font-weight: 600;
-            margin-bottom: 1rem;
-            width: 100%;
-            border-radius: 5px;
-            border: 1px #DEDEDE solid;
-            line-height: 1.625rem;
-            letter-spacing: 0.25px;
+        &__input {
+            position: relative;
+            text-align: right;
+
+            input {
+                padding: 0.9375rem 0rem 0.9375rem 1.213125rem;
+                font-size: 0.875rem;
+                font-weight: 600;
+                margin-bottom: 1rem;
+                width: 100%;
+                border-radius: 5px;
+                border: 1px #DEDEDE solid;
+                line-height: 1.625rem;
+                letter-spacing: 0.25px;
+            }
+
+            img {
+                position: absolute;
+                top: 1rem;
+                right: 1.625rem;
+            }
+
+            small { 
+                font-style: italic;
+                bottom: 6px;
+                font-size: 0.6875rem;
+                color: $Red;
+                display: block;
+                margin-bottom: 1.1875rem;
+            }
         }
 
         button {
@@ -70,9 +90,13 @@
             border-radius: 5px;
             margin-bottom: 0.5rem;
             width: 100%;
+
+            &:hover {
+                background: hsl(154, 65%, 68%);
+            }
         }
 
-        small {
+        p {
             color: $GrayishBlue;
             font-size: 0.6875rem;
             padding: 0rem 1.625rem;
