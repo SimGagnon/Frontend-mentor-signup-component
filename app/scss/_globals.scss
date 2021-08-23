@@ -29,6 +29,7 @@ button {
 @media screen and (min-width: 68.75em) {
     body { 
         background-image: url("../../images/bg-intro-desktop.png");
+        background-size: contain;
     }
 }
 
