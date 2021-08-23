@@ -39,7 +39,7 @@
         margin-bottom: 1.5rem;
         box-shadow: 0 8px 0 hsla(0, 0%, 0%, 0.147);
     }
-    
+
 
     &__form {
         background: white;
@@ -70,7 +70,7 @@
                 display: none;
             }
 
-            small { 
+            small {
                 font-style: italic;
                 bottom: 6px;
                 font-size: 0.6875rem;
@@ -78,7 +78,6 @@
                 display: none;
                 margin-bottom: 1.1875rem;
             }
-
         }
 
         button {
@@ -160,4 +159,3 @@
         display: block;
     }
 }
-

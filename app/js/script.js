@@ -18,7 +18,6 @@ function validateEmail(email) {
     return re.test(String(email).toLowerCase());
 }
 
-
 theInputs.forEach(input => {
     input.addEventListener('input', () => {
         input.value ? input.parentElement.classList.remove("error") : null;
