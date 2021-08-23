@@ -35,6 +35,7 @@ button {
 
 .intro__signup__container {
   max-width: 33.75rem;
+  width: 100%;
   margin: auto;
 }
 
@@ -155,7 +156,7 @@ button {
     font-size: 3.125rem;
     line-height: 3.4375rem;
     letter-spacing: -0.52px;
-    margin: 0 auto 0.6875rem;
+    margin: 0 auto 2.625rem;
     max-width: 32.8125rem;
   }
   .intro__form {
