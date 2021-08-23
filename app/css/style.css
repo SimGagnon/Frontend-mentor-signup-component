@@ -97,6 +97,7 @@ button {
   position: absolute;
   top: 1rem;
   right: 1.625rem;
+  display: none;
 }
 
 .intro__form__input small {
@@ -104,7 +105,7 @@ button {
   bottom: 6px;
   font-size: 0.6875rem;
   color: #ff7a7a;
-  display: block;
+  display: none;
   margin-bottom: 1.1875rem;
 }
 
@@ -164,5 +165,18 @@ button {
     margin-bottom: 1.25rem;
     padding-left: 2rem;
   }
+}
+
+.error input {
+  color: #ff7a7a !important;
+  border-color: #ff7a7a;
+}
+
+.error small {
+  display: block;
+}
+
+.error img {
+  display: block;
 }
 /*# sourceMappingURL=style.css.map */
